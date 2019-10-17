@@ -12,12 +12,12 @@ public class FileInOut {
             text.append(fin.nextLine());
             text.append("\n");
         }
-        fin.close();
+        //fin.close();
         return text;
     }
 
     static void writeFile(FileWriter outPath, String text) throws IOException {
         outPath.append(text);
-        outPath.close();
+        //outPath.close();
     }
 }
